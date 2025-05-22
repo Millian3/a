@@ -1,0 +1,36 @@
+.add-event-container {
+  padding: 1.5rem;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.add-event-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.add-event-form input,
+.add-event-form select,
+.add-event-form button {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+[data-theme="dark"] .add-event-form input,
+[data-theme="dark"] .add-event-form select {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+.add-event-form button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+}
